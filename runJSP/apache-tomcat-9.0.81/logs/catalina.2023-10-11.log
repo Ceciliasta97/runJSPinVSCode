@@ -1,0 +1,191 @@
+11-Oct-2023 16:40:16.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+11-Oct-2023 16:40:16.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2023 16:40:16.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/conf/logging.properties
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 16:40:16.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/temp
+11-Oct-2023 16:40:16.211 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2023 16:40:16.346 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 16:40:16.356 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [285] milliseconds
+11-Oct-2023 16:40:16.375 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2023 16:40:16.375 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+11-Oct-2023 16:40:16.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/host-manager]
+11-Oct-2023 16:40:16.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [165] ms
+11-Oct-2023 16:40:16.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/examples]
+11-Oct-2023 16:40:16.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [353] ms
+11-Oct-2023 16:40:16.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/docs]
+11-Oct-2023 16:40:16.928 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [22] ms
+11-Oct-2023 16:40:16.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/ROOT]
+11-Oct-2023 16:40:16.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [15] ms
+11-Oct-2023 16:40:16.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/manager]
+11-Oct-2023 16:40:16.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [22] ms
+11-Oct-2023 16:40:16.969 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 16:40:16.974 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [617] milliseconds
+11-Oct-2023 20:20:57.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+11-Oct-2023 20:20:57.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+11-Oct-2023 20:20:57.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+11-Oct-2023 20:20:57.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2023 20:20:57.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+11-Oct-2023 20:20:57.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2023 20:20:57.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+11-Oct-2023 20:20:57.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+11-Oct-2023 20:20:57.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+11-Oct-2023 20:20:57.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 20:20:57.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 20:20:57.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2023 20:20:57.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2023 20:20:57.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Oct-2023 20:20:57.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/conf/logging.properties
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81
+11-Oct-2023 20:20:57.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/temp
+11-Oct-2023 20:20:57.482 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2023 20:20:57.719 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 20:20:57.735 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [501] milliseconds
+11-Oct-2023 20:20:57.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2023 20:20:57.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+11-Oct-2023 20:20:57.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/host-manager]
+11-Oct-2023 20:20:58.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [228] ms
+11-Oct-2023 20:20:58.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/examples]
+11-Oct-2023 20:20:58.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [431] ms
+11-Oct-2023 20:20:58.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/docs]
+11-Oct-2023 20:20:58.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [26] ms
+11-Oct-2023 20:20:58.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/ROOT]
+11-Oct-2023 20:20:58.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [20] ms
+11-Oct-2023 20:20:58.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/manager]
+11-Oct-2023 20:20:58.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [30] ms
+11-Oct-2023 20:20:58.520 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 20:20:58.528 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [792] milliseconds
+11-Oct-2023 21:16:32.109 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2023 21:16:32.110 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 21:16:32.112 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2023 21:16:32.128 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 21:16:32.134 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2023 22:37:00.027 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+11-Oct-2023 22:37:00.069 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+11-Oct-2023 22:37:00.070 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+11-Oct-2023 22:37:00.072 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+11-Oct-2023 22:37:00.074 SEVERE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+11-Oct-2023 22:37:00.075 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+11-Oct-2023 22:37:00.075 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+11-Oct-2023 22:37:00.080 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/cainiaoJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [53] ms

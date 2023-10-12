@@ -1,0 +1,1493 @@
+12-Oct-2023 12:13:18.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 12:13:18.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 12:13:18.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 12:13:18.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 12:13:18.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 12:13:18.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 12:13:18.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 12:13:18.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 12:13:18.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 12:13:18.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81
+12-Oct-2023 12:13:18.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81
+12-Oct-2023 12:13:18.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 12:13:18.376 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 12:13:18.594 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 12:13:18.609 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+12-Oct-2023 12:13:18.634 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 12:13:18.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 12:13:18.652 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 12:13:18.745 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 12:13:18.746 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 12:13:18.748 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 12:13:18.757 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 12:13:18.780 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 12:13:18.788 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 12:13:18.793 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [141] ms
+12-Oct-2023 12:13:18.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 12:13:18.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [100] ms
+12-Oct-2023 12:13:18.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 12:13:18.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [27] ms
+12-Oct-2023 12:13:18.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 12:13:18.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [27] ms
+12-Oct-2023 12:13:18.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 12:13:19.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [518] ms
+12-Oct-2023 12:13:19.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 12:13:19.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/csdnJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [31] ms
+12-Oct-2023 12:13:19.501 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 12:13:19.509 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [899] milliseconds
+12-Oct-2023 13:11:53.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 13:11:53.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 13:11:53.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 13:11:53.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 13:11:53.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81
+12-Oct-2023 13:11:53.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81
+12-Oct-2023 13:11:53.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 13:11:53.524 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 13:11:53.725 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 13:11:53.738 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+12-Oct-2023 13:11:53.739 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [371] milliseconds
+12-Oct-2023 13:11:53.774 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 13:11:53.774 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 13:11:53.791 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 13:11:53.884 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 13:11:53.885 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 13:11:53.885 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 13:11:53.896 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 13:11:53.920 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 13:11:53.928 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 13:11:53.932 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:53.932 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:53.933 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:53.935 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [144] ms
+12-Oct-2023 13:11:53.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 13:11:54.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [392] ms
+12-Oct-2023 13:11:54.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 13:11:54.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [25] ms
+12-Oct-2023 13:11:54.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 13:11:54.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [19] ms
+12-Oct-2023 13:11:54.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 13:11:54.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [30] ms
+12-Oct-2023 13:11:54.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 13:11:54.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/createJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [19] ms
+12-Oct-2023 13:11:54.428 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [689] milliseconds
+12-Oct-2023 13:11:54.431 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 13:11:54.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 13:11:54.432 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Oct-2023 13:11:54.436 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:54.436 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:54.436 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:54.440 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:54.440 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:54.441 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:54.443 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:54.443 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:54.443 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:54.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:54.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:54.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:54.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 13:11:54.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 13:11:54.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 13:11:54.449 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 14:50:22.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 14:50:22.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 14:50:22.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 14:50:22.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Oct-2023 14:50:22.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Oct-2023 14:50:22.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Oct-2023 14:50:22.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 14:50:22.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 14:50:22.052 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 14:50:22.483 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 14:50:22.557 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [872] milliseconds
+12-Oct-2023 14:50:22.613 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 14:50:22.614 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 14:50:22.636 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 14:50:22.808 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 14:50:22.812 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 14:50:22.812 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 14:50:22.825 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 14:50:22.879 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 14:50:22.900 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 14:50:22.911 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [275] ms
+12-Oct-2023 14:50:22.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 14:50:23.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [196] ms
+12-Oct-2023 14:50:23.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 14:50:23.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [76] ms
+12-Oct-2023 14:50:23.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 14:50:23.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [73] ms
+12-Oct-2023 14:50:23.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 14:50:23.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [33] ms
+12-Oct-2023 14:50:23.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 14:50:23.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [459] ms
+12-Oct-2023 14:50:23.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 14:50:23.775 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1217] milliseconds
+12-Oct-2023 16:21:08.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:21:08.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:21:08.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 16:21:08.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 16:21:08.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 16:21:08.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 16:21:08.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 16:21:08.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:21:08.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:21:08.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 16:21:08.301 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 16:21:08.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:21:08.949 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+12-Oct-2023 16:21:08.950 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [935] milliseconds
+12-Oct-2023 16:21:09.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 16:21:09.068 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 16:21:09.107 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 16:21:09.364 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:21:09.365 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:21:09.369 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 16:21:09.391 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 16:21:09.517 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 16:21:09.547 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 16:21:09.561 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:09.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:09.563 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:09.577 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [470] ms
+12-Oct-2023 16:21:09.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 16:21:09.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [259] ms
+12-Oct-2023 16:21:09.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 16:21:09.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [116] ms
+12-Oct-2023 16:21:09.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 16:21:10.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [70] ms
+12-Oct-2023 16:21:10.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 16:21:10.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [39] ms
+12-Oct-2023 16:21:10.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 16:21:10.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [441] ms
+12-Oct-2023 16:21:10.512 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1562] milliseconds
+12-Oct-2023 16:21:10.524 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:21:10.525 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:21:10.525 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Oct-2023 16:21:10.533 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:10.536 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:10.536 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:10.539 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:10.539 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:10.555 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:10.558 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:10.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:10.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:10.567 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:10.568 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:10.569 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:10.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:21:10.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:21:10.571 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:21:10.572 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:21:10.588 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:22:46.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 16:22:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 16:22:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 16:22:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 16:22:46.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:22:46.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:22:46.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=localhost:34935
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:22:46.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 16:22:46.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 16:22:47.370 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:22:47.407 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+12-Oct-2023 16:22:47.408 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [996] milliseconds
+12-Oct-2023 16:22:47.511 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 16:22:47.513 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 16:22:47.593 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 16:22:47.961 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:22:47.966 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:22:47.971 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 16:22:48.011 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 16:22:48.106 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 16:22:48.142 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 16:22:48.145 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:48.151 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:48.152 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:48.162 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [566] ms
+12-Oct-2023 16:22:48.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 16:22:48.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [212] ms
+12-Oct-2023 16:22:48.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 16:22:48.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [110] ms
+12-Oct-2023 16:22:48.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 16:22:48.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [75] ms
+12-Oct-2023 16:22:48.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 16:22:48.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [37] ms
+12-Oct-2023 16:22:48.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 16:22:49.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [565] ms
+12-Oct-2023 16:22:49.175 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1766] milliseconds
+12-Oct-2023 16:22:49.178 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:22:49.179 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:22:49.179 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Oct-2023 16:22:49.183 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:49.183 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:49.183 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:49.195 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:49.196 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:49.196 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:49.199 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:49.200 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:49.200 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:49.201 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:49.201 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:49.201 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:49.202 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:22:49.203 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:22:49.203 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:22:49.203 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:22:49.207 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:24:06.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 16:24:06.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 16:24:06.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 16:24:06.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:24:06.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:24:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 16:24:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 16:24:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 16:24:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 16:24:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 16:24:06.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:24:06.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:24:06.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 16:24:06.278 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 16:24:06.726 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:24:06.788 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+12-Oct-2023 16:24:06.795 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [832] milliseconds
+12-Oct-2023 16:24:06.878 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 16:24:06.880 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 16:24:06.914 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 16:24:07.110 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:24:07.110 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:24:07.111 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 16:24:07.124 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 16:24:07.204 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 16:24:07.226 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 16:24:07.241 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:07.242 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:07.244 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:07.249 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [336] ms
+12-Oct-2023 16:24:07.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 16:24:07.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [328] ms
+12-Oct-2023 16:24:07.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 16:24:07.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [76] ms
+12-Oct-2023 16:24:07.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 16:24:07.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [66] ms
+12-Oct-2023 16:24:07.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 16:24:07.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [44] ms
+12-Oct-2023 16:24:07.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 16:24:08.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [598] ms
+12-Oct-2023 16:24:08.403 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1608] milliseconds
+12-Oct-2023 16:24:08.409 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:24:08.409 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:24:08.410 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Oct-2023 16:24:08.424 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:08.425 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:08.425 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:08.429 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:08.434 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:08.434 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:08.439 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:08.443 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:08.443 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:08.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:08.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:08.446 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:08.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:24:08.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:24:08.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:24:08.455 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:24:08.468 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:26:01.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.81
+12-Oct-2023 16:26:01.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 9 2023 21:04:55 UTC
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.81.0
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-284.30.1.el9_2.x86_64
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/amazon-corretto-17
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8.1+8-LTS
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:26:01.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:26:01.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/conf/logging.properties
+12-Oct-2023 16:26:01.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Oct-2023 16:26:01.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Oct-2023 16:26:01.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Oct-2023 16:26:01.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Oct-2023 16:26:01.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:26:01.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81
+12-Oct-2023 16:26:01.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/temp
+12-Oct-2023 16:26:01.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/home/yc97/usr/lib:/cs/home/yc97/usr/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Oct-2023 16:26:01.864 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:26:01.907 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1326)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1339)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+12-Oct-2023 16:26:01.916 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [925] milliseconds
+12-Oct-2023 16:26:02.042 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Oct-2023 16:26:02.042 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.81]
+12-Oct-2023 16:26:02.061 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war]
+12-Oct-2023 16:26:02.308 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:26:02.309 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1282)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:26:02.309 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+12-Oct-2023 16:26:02.344 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+12-Oct-2023 16:26:02.416 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+12-Oct-2023 16:26:02.432 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/my-web-app-1.0] startup failed due to previous errors
+12-Oct-2023 16:26:02.437 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:02.438 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:02.438 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:26:02.440 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/my-web-app-1.0.war] has finished in [379] ms
+12-Oct-2023 16:26:02.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs]
+12-Oct-2023 16:26:02.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/docs] has finished in [166] ms
+12-Oct-2023 16:26:02.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager]
+12-Oct-2023 16:26:02.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/manager] has finished in [134] ms
+12-Oct-2023 16:26:02.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager]
+12-Oct-2023 16:26:02.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/host-manager] has finished in [85] ms
+12-Oct-2023 16:26:02.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT]
+12-Oct-2023 16:26:02.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/ROOT] has finished in [42] ms
+12-Oct-2023 16:26:02.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples]
+12-Oct-2023 16:26:03.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/cs/home/yc97/Documents/Programs/o1heima/03-javaweb/runJSP/apache-tomcat-9.0.81/webapps/examples] has finished in [488] ms
+12-Oct-2023 16:26:03.375 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1458] milliseconds
+12-Oct-2023 16:26:03.385 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+12-Oct-2023 16:26:03.390 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Oct-2023 16:26:03.391 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Oct-2023 16:26:03.396 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:03.399 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:03.399 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:26:03.418 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:03.421 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:03.423 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:26:03.430 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:03.431 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:03.440 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:26:03.447 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:03.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:03.448 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+12-Oct-2023 16:26:03.457 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches When running on Java 9 or later you need to add "--add-opens=java.base/java.io=ALL-UNNAMED" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+12-Oct-2023 16:26:03.460 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks When running on Java 9 or later you need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+12-Oct-2023 16:26:03.466 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
